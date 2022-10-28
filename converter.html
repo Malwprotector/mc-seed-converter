@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<title>Minecraft seed converter</title>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="brython.js"></script>
+<script type="text/javascript" src="brython_stdlib.js"></script>
+</head>
+
+<p align="center"><font size="7"><font face="URW Gothic"><strong>Minecraft seed converter</strong></font></font></p>
+<p align="center"><font size="5"><font face="URW Gothic"><strong>Enter your minecraft world generation seed, and convert it to java or bedrock!</strong></font></font></p>
+
+<p align="center"><font size="3">This work is licensed under a <br> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0 License</a>.</font></p>
+<p align="center"><font size="3">You can get the source code <a href="https://github.com/Malwprotector/mc-seed-converter">here.</a> <br>Click the button below to download <br> offline version.</font></p>
+<p align="center"><input type=button onclick=window.location.href='mc-seed-converter.py'; value="Download offline version (python3)"></p>
+
+<p align="center"><font size="5"><font face="URW Gothic"><i>
+Please note that: <br>
+ -All Bedrock sees can be converted to Java seeds. <br>
+  -You won’t be able to convert all Java seeds to Bedrock seeds. <br>
+ -There will be some differences in the world that are generated. <br>
+ -Spawn points will likely be different. <br>
+ -Structures such as the Dessert temples, Jungle Temples, Mineshafts, Strongholds will not be in the same place. <br>
+ -The Biomes and the map will be a close match to the original world seed. <br>
+</i></font></font></p>
+<p align="center"><font size="7"><font face="URW Gothic"><strong>converting...</strong></font></font></p>
+
+<p align="center">
+<body onload="brython(1)">
+<script type="text/python">
+from browser import document, html
+
+#This work is licensed under a CC BY-NC-SA 4.0 License. 
+#Read it here: https://creativecommons.org/licenses/by-nc-sa/4.0/
+print("--------------------------------------------------")
+print("-------------Minecraft seed converter-------------")
+print("--------------------------------------------------")
+print()
+print()
+print('Please note that: \n -All Bedrock sees can be converted to Java seeds. \n -There will be some differences in the world that are generated. \n -Spawn points will likely be different. \n -Structures such as the Dessert temples, Jungle Temples, Mineshafts, Strongholds will not be in the same place. \n -The Biomes and the map will be a close match to the original world seed. \n -You won’t be able to convert all Java seeds to Bedrock seeds.')
+print()
+print('This work is licensed under a CC BY-NC-SA 4.0 License. Read it here: https://creativecommons.org/licenses/by-nc-sa/4.0/')
+print()
+print()
+asked_seed = input("please enter the minecraft seed to convert: ")
+minecraft_version = input("Please enter the seed version (java or bedrock): ")
+new_seed = 0
+seed = int(asked_seed)
+print()
+print("--------------------------------------------------")
+print()
+if minecraft_version == 'java':
+    if seed <= 0:
+        print('error: seed cannot be converted')
+        print()
+        print()
+    elif seed <= 2147483648:
+      document <= "--------------------------------------------------------------------------------------------------------"
+      document <= html.B(html.I("the seed has been successfully converted to the bedrock version. new seed: "))
+      document <= html.B(seed)
+      document <= "-------------------------------------------------------------------------------------------------------"
+      print()
+      print()
+
+    elif seed >= 2147483649 and seed <= 4294967296:
+      new_seed = seed - 4294967296
+      document <= "--------------------------------------------------------------------------------------------------------"
+      document <= html.B(html.I("the seed has been successfully converted to the bedrock version. new seed: "))
+      document <= html.B(new_seed)
+      document <= "-------------------------------------------------------------------------------------------------------"
+      print()
+      print()
+    else:
+      print('error: seed cannot be converted')
+      print()
+      print()
+elif minecraft_version == 'bedrock':
+  if seed > 0 and seed <= 2147483648:
+    document <= "--------------------------------------------------------------------------------------------------------"
+    document <= html.B(html.I("the seed has been successfully converted to the java version. new seed: "))
+    document <= "-------------------------------------------------------------------------------------------------------"
+    document <= html.B(seed)
+    print()
+    print()
+  elif seed < 0:
+    new_seed = seed + 4294967296
+    document <= "--------------------------------------------------------------------------------------------------------"
+    document <= html.B(html.I("the seed has been successfully converted to the java version. new seed: "))
+    document <= "-------------------------------------------------------------------------------------------------------"
+    document <= html.B(new_seed)
+    print()
+    print()
+  else:
+      print('error: seed is incorrect')
+else:
+  print('error: invalid minecraft version')
+</script>
+</body>
+</p>
+
+</html>
+
