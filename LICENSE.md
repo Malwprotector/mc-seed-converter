@@ -5,9 +5,11 @@ This work is licensed under a <a href='https://creativecommons.org/licenses/by-n
 Please note that the https://brython.info scripts are NOT included in the above license. I don't own these scripts.
 
 Here is the link of the github project: https://github.com/brython-dev/brython
+
 Below you will find the license about these scripts (and ONLY the license for scripts from the https://brython.info website, everything else is subject to the license indicated in the first line):
 
 Copyright (c) 2012, Pierre Quentel pierre.quentel@gmail.com
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
