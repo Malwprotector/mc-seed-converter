@@ -51,7 +51,7 @@ print("--------------------------------------------------")
 print()
 if minecraft_version == 'java':
     if seed <= 0:
-        print('error: seed cannot be converted')
+        document <= "error: seed cannot be converted"
         print()
         print()
     elif seed <= 2147483648:
@@ -71,29 +71,31 @@ if minecraft_version == 'java':
       print()
       print()
     else:
-      print('error: seed cannot be converted')
+      document <= "error: seed cannot be converted"
       print()
       print()
 elif minecraft_version == 'bedrock':
   if seed > 0 and seed <= 2147483648:
     document <= "--------------------------------------------------------------------------------------------------------"
     document <= html.B(html.I("the seed has been successfully converted to the java version. new seed: "))
-    document <= "-------------------------------------------------------------------------------------------------------"
     document <= html.B(seed)
+    document <= "-------------------------------------------------------------------------------------------------------"
+    
     print()
     print()
   elif seed < 0:
     new_seed = seed + 4294967296
     document <= "--------------------------------------------------------------------------------------------------------"
     document <= html.B(html.I("the seed has been successfully converted to the java version. new seed: "))
-    document <= "-------------------------------------------------------------------------------------------------------"
     document <= html.B(new_seed)
+    document <= "-------------------------------------------------------------------------------------------------------"
+    
     print()
     print()
   else:
-      print('error: seed is incorrect')
+      document <= "error: seed is incorrect"
 else:
-  print('error: invalid minecraft version')
+  document <= "error: invalid minecraft version"
 </script>
 </body>
 </p>
