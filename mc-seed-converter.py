@@ -1,6 +1,3 @@
-#Here is the source code of mc-seed-converter.
-#If you want to download the file to access the program offline, right-click and click on "download".
-
 #This work is licensed under a CC BY-NC-SA 4.0 License. 
 #Read it here: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
