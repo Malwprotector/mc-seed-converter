@@ -1,4 +1,4 @@
-This code is licensed under a <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)  License, </a>please respect it when you use this code.
+This code is licensed under a <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)  License, </a>please respect it when you use this code. If there is any problems, don't hesitate to contact me as soon as possible.
 
 
 
