@@ -7,6 +7,8 @@ One major drawback of this distinction is that world saves are not directly comp
 
 However, each world is generated based on a **seed**, a unique number that determines the world’s terrain, biomes, and structures. This tool allows you to convert seeds between **Minecraft Bedrock Edition** and **Minecraft Java Edition**.  
 
+🔗 **Try it here:** [Minecraft Seed Converter](https://malwprotector.github.io/mc-seed-converter/)  
+
 ## Features  
 
 ✅ Convert **Bedrock Edition** seeds to **Java Edition** seeds.  
@@ -20,9 +22,9 @@ However, each world is generated based on a **seed**, a unique number that deter
 
 ## Usage  
 
-1. Input your **Minecraft seed** in the tool.
-2. Select the **conversion direction** (Bedrock → Java or Java → Bedrock).
-3. Get the converted seed and use it in the corresponding edition of the game.
+1. Input your **Minecraft seed** in the tool.  
+2. Select the **conversion direction** (Bedrock → Java or Java → Bedrock).  
+3. Get the converted seed and use it in the corresponding edition of the game.  
 
 ## Credits  
 
