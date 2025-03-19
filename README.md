@@ -20,9 +20,9 @@ However, each world is generated based on a **seed**, a unique number that deter
 
 ## Usage  
 
-1. Input your **Minecraft seed** in the tool.  
-2. Select the **conversion direction** (Bedrock → Java or Java → Bedrock).  
-3. Get the converted seed and use it in the corresponding edition of the game.  
+1. Input your **Minecraft seed** in the tool.
+2. Select the **conversion direction** (Bedrock → Java or Java → Bedrock).
+3. Get the converted seed and use it in the corresponding edition of the game.
 
 ## Credits  
 
