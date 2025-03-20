@@ -1,14 +1,32 @@
-<strong>Minecraft seed converter</strong>
+# Minecraft Seed Converter  
 
-There are two different editions of the Minecraft video game, the Minecraft Java Edition and the Minecraft Bedrock Edition. This particularity includes a fairly significant problem, world saves cannot be converted from one edition to the other: however, when you create a save, a generation seed is associated with it and is used to generate a Minecraft world.
+## Introduction  
 
-This tool allows you to convert Minecraft world generation seeds from the Bedrock Edition to the Java Edition, and vice versa.
-When using the tool, note that: 
+Minecraft exists in two different editions: **Minecraft Java Edition** and **Minecraft Bedrock Edition**.  
+One major drawback of this distinction is that world saves are not directly compatible between the two editions.  
 
+However, each world is generated based on a **seed**, a unique number that determines the world’s terrain, biomes, and structures. This tool allows you to convert seeds between **Minecraft Bedrock Edition** and **Minecraft Java Edition**.  
 
--All Minecraft Bedrock generation seeds can be converted to Java seeds.<br>
--You will not be able to convert all Minecraft Java Edition seeds to Minecraft Bedrock seeds.<br>
--There will be some differences in the world generated.<br>
--The appearance points will probably be different.<br>
--Structures such as Desert Temples, Jungle Temples, mine shafts and fortresses will not be in the same place.<br>
--The biomes and map will be close to the seed of the original world.<br>
+🔗 **Try it here:** [Minecraft Seed Converter](https://malwprotector.github.io/mc-seed-converter/)  
+
+## Features  
+
+✅ Convert **Bedrock Edition** seeds to **Java Edition** seeds.  
+✅ Convert **some** Java Edition seeds to **Bedrock Edition** (with limitations).  
+✅ Maintain world terrain and biome similarity as much as possible.  
+
+⚠ **Limitations:**  
+- Not all Java Edition seeds can be converted to Bedrock Edition.  
+- Spawn points may differ between versions.  
+- Structures like **Desert Temples, Jungle Temples, mineshafts, and fortresses** will not be in the same locations.  
+
+## Usage  
+
+1. Input your **Minecraft seed** in the tool.  
+2. Select the **conversion direction** (Bedrock → Java or Java → Bedrock).  
+3. Get the converted seed and use it in the corresponding edition of the game.  
+
+## Credits  
+
+Special thanks to **[MKstarFromSwitch](https://github.com/MKstarFromSwitch)** for contributing to typo and capitalization fixes in the project description and README.  
+
